@@ -1,18 +1,19 @@
 /**
  * 
  * @author Aaliyah
- * Description: A program to declARE VARIABLES
+ * Description: A program to declare variables
  * Created    : 02/03/20
  *
  **/
 public class Aaliyah {
 	public static void main (String[] args) {
-		//declaration of variable in data type int
+		
+	    //declaration of variable in data type int
 		int age       = 3;
 	    //declaration of variable in data type double
-	    double height = 10.35;
+	        double height = 10.35;
 	    //declaration of variable in data type byte
-	    byte width    = 5;
+	        byte width    = 5;
 	
 	    //assigning string variables
 	    String name1;
