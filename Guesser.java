@@ -13,14 +13,13 @@ public class Guesser {
 		System.out.println("Please enter a number :");
 		int num = kb.nextInt();
 		
-		if (num = 6) {
+		if (num == 6) {
 		for(int i=0; i<3; i++)
 		System.out.println("Victory");
 		}
 		else {
-		for(int i=0; i<=3; i++)
+		for(int i=0; i<3; i++)
 		System.out.println("Game Over");
 		}
 	}
 }
-
