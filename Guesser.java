@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 /**
  * 
  * @author Aaliyah
@@ -7,13 +8,16 @@ import java.util.Scanner;
 public class Guesser {
 	public static void main(String[]args) {
 		Scanner kb = new Scanner(System.in);
+		Random rand = new Random();
 		
 		System.out.println("Welcome to the Guessing Game! In this game you are going to be guessing numbers to win! ");
 		
-		System.out.println("Please enter a number :");
-		int num = kb.nextInt();
+		int randPick = rand.nextInt(3);
 		
-		if (num == 6) {
+		System.out.println("Please enter a number from 0 to 2: ");
+		int userPick= kb.nextInt();
+		
+		if (userPick == randPick) {
 		for(int i=0; i<3; i++)
 		System.out.println("Victory");
 		}
