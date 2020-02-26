@@ -8,19 +8,19 @@ public class Guesser {
 	public static void main(String[]args) {
 		Scanner kb = new Scanner(System.in);
 		
+		System.out.println("Welcome to the Guessing Game! In this game you are going to be guessing numbers to win! ");
+		
 		System.out.println("Please enter a number :");
-		int num =kb.nextInt();
+		int num = kb.nextInt();
 		
-	
-		for(int i=6; i<3; i++)
+		if (num = 6) {
+		for(int i=0; i<3; i++)
 		System.out.println("Victory");
-		
-		for(int i=6; i<=3; i+=1)
+		}
+		else {
+		for(int i=0; i<=3; i++)
 		System.out.println("Game Over");
-		
-			
-		
-				
+		}
 	}
-
 }
+
