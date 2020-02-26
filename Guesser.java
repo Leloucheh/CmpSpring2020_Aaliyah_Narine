@@ -24,6 +24,8 @@ public class Guesser {
 		else {
 		for(int i=0; i<3; i++)
 		System.out.println("Game Over");
+		
+		System.out.println("The number was "+ randPick);
 		}
 	}
 }
